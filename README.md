@@ -66,4 +66,8 @@ docker-compose exec workspace bash
 ```
 
 
-
+Clear logs container
+```
+sudo chmod 755 /usr/local/bin/docker-clear-log.sh
+docker-clear-log <container>
+```
